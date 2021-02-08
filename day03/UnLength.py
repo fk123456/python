@@ -42,7 +42,9 @@ def myFunc6():
     print("aaaaa")
     def myFunc7():
         print("bbbbb")
+    # 返回函数名称
     return myFunc7
 
 result = myFunc6()
+# 调用内部函数
 result()
